@@ -21,15 +21,15 @@ This gateway handles secure access control and routing between the frontend and 
 
 ### ✅ Requirements
 - Python 3.10+
-- A running Keycloak instance [Docker]
+- A running Keycloak instance [Docker => 8080:8070]
 - Internal microservices available on the network
 
 ### 🔧 Setup Steps
 
 ```bash
 # Clone the repository
-git clone https://github.com/hejjiouiy/api-gateway
-cd api-gateway
+git clone https://github.com/hejjiouiy/FMS-Portal-Gateway
+cd FMS-Portal-Gateway
 
 # Install dependencies
 pip install -r requirements.txt
@@ -142,10 +142,6 @@ A user logs in → visits the dashboard → requests a protected resource:
 
 ## 📂 Contact
 
-Feel free to reach out to the backend team if you’re integrating a new service behind the gateway or need token structure details.
+Feel free to reach out to the backend team at elhejjiouiyoussef@gmail.com if you’re integrating a new service behind the gateway or need token structure details.
 
 ```
-
----
-
-Let me know if you want to export this as a file or need diagrams (sequence or architecture).
